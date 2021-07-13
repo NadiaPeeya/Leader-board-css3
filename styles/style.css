@@ -6,6 +6,8 @@ body{
     
     background-color:#F3F1FF;
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
 }
 main{
     display: flex;
@@ -17,7 +19,7 @@ main{
 .container{
 
      background: #FFFFFF;
-     width: 870px;
+     width: 800px;
      
      align-items: center;
      padding: 30px;
@@ -175,21 +177,60 @@ hr{
 /* mobile devices */
 
 
-@media only screen and(max-width: 688px){
+@media only screen and (max-width: 688px){
 
     .container{
 
         width: 100%;
+        margin: 0%;
+        padding: 0%;
     }
    
   
-    .players, .blogs, .courses{
+    .players, .courses{
 
-        grid-template-columns: repeat(1, 1fr);
+         display: flex;
+
+         flex-direction: column;
+         align-items: center;
     }
+
+    .blogs{
+
+        display: flex;
+        overflow-x: scroll;
+    }
+
     .player, .blog{
 
         flex-direction: column;
+    }
+
+    .navbar{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+
+    }
+   
+    
+    .logo{
+
+        display: flex;
+        /* justify-content: center; */
+    }
+
+    .nav-items{
+
+        display: flex;
+        align-items: center;
+    }
+
+    .section-title{
+
+        text-align: center;
     }
 
       

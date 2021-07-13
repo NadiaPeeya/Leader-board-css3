@@ -1,8 +1,19 @@
-.logo img{
+#menu img{
 
-   width: 60%;
-   height: 60%;
+   width: 56px;
+   height: 56px;
+   
+
+
+
 }
+
+#menu{
+
+ 
+   align-items: center;
+} 
+
 
 .nav-bar{
    position: sticky;
@@ -11,10 +22,11 @@
 .logo{
    padding: 5px;
    margin-top: 10px;
-   width: 100px;
-   display: flex;
-   justify-content: space-between;
+   
+   
    margin-left: 50px;
+   font-size: 40px;
+   color: cornsilk;
   
 }
 
@@ -23,6 +35,7 @@
 .navbar{
   
    display: flex;
+
    justify-content: space-between;
    position: sticky;
    background-color:#562EFF;
@@ -31,6 +44,14 @@
    
  
   
+}
+
+#menu{
+
+   display: flex;
+
+
+
 }
 ul{
 
@@ -44,6 +65,7 @@ ul{
 li a{
    
    text-decoration: none;
+   color: white;
 
 }
 li{
